@@ -1,0 +1,17 @@
+:root {
+    --skin-color: #f0f0f049;
+    --line-color: #b0cbeb46;
+    --custom-color: #00000005;
+  }
+
+.form {
+    width: 700px;
+    background:
+        /* radial-gradient(circle farthest-side at 0% 50%, var(--skin-color) 23.5%, var(--custom-color) 0)21px 30px, */
+        radial-gradient(circle farthest-side at 0% 50%, var(--line-color) 24%, var(--custom-color) 0)19px 30px,
+        linear-gradient(var(--skin-color) 2%, var(--custom-color) 0,  var(--custom-color) 85%, var(--skin-color) 0)0 0,
+        /* linear-gradient(150deg, var(--skin-color) 24%, var(--line-color) 0, var(--line-color) 26%, var(--custom-color) 0, var(--custom-color) 74%, var(--line-color) 0, var(--line-color) 76%, var(--skin-color) 0)0 0, */
+        /* linear-gradient(30deg, var(--skin-color) 24%, var(--line-color) 0, var(--line-color) 26%, var(--custom-color) 0, var(--custom-color) 74%, var(--line-color) 0, var(--line-color) 76%, var(--skin-color) 0)0 0, */
+        linear-gradient(90deg, var(--line-color) 2%, var(--skin-color) 0, var(--skin-color) 98%, var(--line-color) 0%)0 0 var(--skin-color);
+        background-size: 700px 250px;
+}

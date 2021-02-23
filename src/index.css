@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(90deg, rgb(168, 121, 223), rgb(89, 180, 168));
+}
+
+header {
+  display: flex;
+  margin: 30px;
+  margin-bottom: 0px;
+}
+
+nav {
+  display: inherit;
+  margin-left: auto;
+  padding: 3px;
+  margin-bottom: 0px;
+
+}
+
+button {
+  cursor: pointer;
+}
+
+input::placeholder{
+  color: #ac73be;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
